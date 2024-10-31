@@ -7,5 +7,5 @@ description = "TCP/IP Client/Server"
 license = "MIT"
 
 [dependencies]
-clap = "4.5.20"
+clap = { version = "4.5.20", features = ["derive"] }
 tokio = "1.41.0"
